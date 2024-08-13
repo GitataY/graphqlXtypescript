@@ -1,6 +1,17 @@
 {
   "dependencies": {
     "apollo-server-express": "^3.13.0",
-    "graphql": "^16.9.0"
-  }
+    "graphql": "^16.9.0",
+    "nodemon": "^3.1.4"
+  },
+  "name": "graphql-codegen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Wamuyu Gitata",
+  "license": "ISC",
+  "description": ""
 }
